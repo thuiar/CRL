@@ -17,9 +17,7 @@ if __name__ == '__main__':
     torch.cuda.set_device(args.gpu)
     args.device = torch.device(args.device)
     args.n_gpu = torch.cuda.device_count()
-    dataname = "FewRel"  # or TACRED
-    args.taskname = dataname
-    args.dataname = dataname
+    args.taskname = args.dataname
     args.rel_per_task = 8 if args.dataname == 'FewRel' else 4 
     run(args)
     

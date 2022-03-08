@@ -16,7 +16,7 @@ class Param:
         ##################################common parameters####################################
         parser.add_argument("--gpu", default=0, type=int)
 
-        parser.add_argument("--dataname", default='FewRel', type=str)
+        parser.add_argument("--dataname", default='FewRel', type=str, help="Use TACRED or FewRel datasets.")
 
         parser.add_argument("--task_name", default='FewRel', type=str)
 
