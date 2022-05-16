@@ -1,0 +1,1397 @@
+hyper-parameter configurations:
+{'gpu': 0, 'dataname': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 16, 'learning_rate': 5e-06, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 10, 'step2_epochs': 10, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 10, 'optim': 'adam', 'data_path': 'datasets/', 'bert_path': 'datasets/bert', 'n_gpu': 1}
+['per:cities_of_residence', 'per:other_family', 'org:founded', 'per:origin']
+Use adam optim!
+init_train_0 loss is 6.0018619117090255
+init_train_1 loss is 5.476348876953125
+init_train_2 loss is 5.142396991535769
+init_train_3 loss is 5.047905938100007
+init_train_4 loss is 5.013330459594727
+init_train_5 loss is 4.9841795048471225
+init_train_6 loss is 4.969206915063373
+init_train_7 loss is 4.950134859246723
+init_train_8 loss is 4.952594312570863
+init_train_9 loss is 4.9440681247387905
+Restart Num 1
+task--1:
+current test acc:0.972972972972973
+history test acc:0.972972972972973
+[0.972972972972973]
+[0.972972972972973]
+['per:cause_of_death', 'org:dissolved', 'per:employee_of', 'org:member_of']
+Use adam optim!
+init_train_0 loss is 5.9324989189972746
+init_train_1 loss is 5.472703482653643
+init_train_2 loss is 5.275366409404858
+init_train_3 loss is 5.212955126891265
+init_train_4 loss is 5.182643465093665
+init_train_5 loss is 5.159066664206015
+init_train_6 loss is 5.152349884445603
+init_train_7 loss is 5.1410018173423975
+init_train_8 loss is 5.136610095565383
+init_train_9 loss is 5.134871392636685
+Use adam optim!
+memory_train_0 loss is 2.9262800216674805
+memory_train_1 loss is 2.839967393875122
+memory_train_2 loss is 2.721191167831421
+memory_train_3 loss is 2.6654195308685305
+memory_train_4 loss is 2.6317773818969727
+memory_train_5 loss is 2.596180963516235
+memory_train_6 loss is 2.579461765289307
+memory_train_7 loss is 2.562034177780151
+memory_train_8 loss is 2.555288553237915
+memory_train_9 loss is 2.5369492530822755
+Restart Num 1
+task--2:
+current test acc:0.8598130841121495
+history test acc:0.8941176470588236
+[0.972972972972973, 0.8598130841121495]
+[0.972972972972973, 0.8941176470588236]
+['per:parents', 'per:alternate_names', 'org:top_members/employees', 'per:siblings']
+Use adam optim!
+init_train_0 loss is 5.706572074890136
+init_train_1 loss is 5.607927713394165
+init_train_2 loss is 5.501784067153931
+init_train_3 loss is 5.426215353012085
+init_train_4 loss is 5.334233932495117
+init_train_5 loss is 5.233112297058105
+init_train_6 loss is 5.139954633712769
+init_train_7 loss is 5.069842643737793
+init_train_8 loss is 5.024426460266113
+init_train_9 loss is 4.996503705978394
+Use adam optim!
+memory_train_0 loss is 3.0658642947673798
+memory_train_1 loss is 2.9494751691818237
+memory_train_2 loss is 2.8507122099399567
+memory_train_3 loss is 2.770276665687561
+memory_train_4 loss is 2.72583931684494
+memory_train_5 loss is 2.6924724876880646
+memory_train_6 loss is 2.6372225284576416
+memory_train_7 loss is 2.6125253438949585
+memory_train_8 loss is 2.592547595500946
+memory_train_9 loss is 2.5644440948963165
+Restart Num 1
+task--3:
+current test acc:0.8972602739726028
+history test acc:0.8603491271820449
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449]
+['per:stateorprovinces_of_residence', 'org:alternate_names', 'org:country_of_headquarters', 'per:country_of_birth']
+Use adam optim!
+init_train_0 loss is 5.392533010052096
+init_train_1 loss is 5.2158227505222445
+init_train_2 loss is 5.123891938117243
+init_train_3 loss is 5.093087065604426
+init_train_4 loss is 5.072957877189882
+init_train_5 loss is 5.062916378821096
+init_train_6 loss is 5.055486048421552
+init_train_7 loss is 5.052814076023717
+init_train_8 loss is 5.047299477361864
+init_train_9 loss is 5.038346367497598
+Use adam optim!
+memory_train_0 loss is 3.1315955400466917
+memory_train_1 loss is 2.9473564624786377
+memory_train_2 loss is 2.8168253183364866
+memory_train_3 loss is 2.7894664287567137
+memory_train_4 loss is 2.774796199798584
+memory_train_5 loss is 2.754103350639343
+memory_train_6 loss is 2.7339112997055053
+memory_train_7 loss is 2.698406219482422
+memory_train_8 loss is 2.6502226829528808
+memory_train_9 loss is 2.6228484869003297
+Restart Num 1
+task--4:
+current test acc:0.9302325581395349
+history test acc:0.8301886792452831
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831]
+['per:children', 'per:date_of_birth', 'org:founded_by', 'per:countries_of_residence']
+Use adam optim!
+init_train_0 loss is 5.172576173822931
+init_train_1 loss is 5.069743207160463
+init_train_2 loss is 5.011080965082696
+init_train_3 loss is 5.0015850371502815
+init_train_4 loss is 4.990583724163948
+init_train_5 loss is 4.990931186270206
+init_train_6 loss is 4.984363048634631
+init_train_7 loss is 4.989686631141825
+init_train_8 loss is 4.984440235381431
+init_train_9 loss is 4.9849649896012975
+Use adam optim!
+memory_train_0 loss is 3.3855773302224965
+memory_train_1 loss is 3.1534563027895413
+memory_train_2 loss is 3.0168901956998386
+memory_train_3 loss is 2.914327548100398
+memory_train_4 loss is 2.8705577300145078
+memory_train_5 loss is 2.8468975837414083
+memory_train_6 loss is 2.8143669275137095
+memory_train_7 loss is 2.7888902700864353
+memory_train_8 loss is 2.765067669061514
+memory_train_9 loss is 2.743585384809054
+Restart Num 1
+task--5:
+current test acc:0.8880597014925373
+history test acc:0.8147590361445783
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349, 0.8880597014925373]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831, 0.8147590361445783]
+['per:schools_attended', 'org:subsidiaries', 'org:members', 'org:political/religious_affiliation']
+Use adam optim!
+init_train_0 loss is 5.81679747321389
+init_train_1 loss is 5.551981568336487
+init_train_2 loss is 5.400580525398254
+init_train_3 loss is 5.321318279613148
+init_train_4 loss is 5.258080244064331
+init_train_5 loss is 5.192791418595747
+init_train_6 loss is 5.139555876905268
+init_train_7 loss is 5.116700985214927
+init_train_8 loss is 5.072056640278209
+init_train_9 loss is 5.029609420082786
+Use adam optim!
+memory_train_0 loss is 3.414451233545939
+memory_train_1 loss is 3.143614991505941
+memory_train_2 loss is 2.9491159915924072
+memory_train_3 loss is 2.8606214841206867
+memory_train_4 loss is 2.821206521987915
+memory_train_5 loss is 2.7984894434611003
+memory_train_6 loss is 2.7665885130564374
+memory_train_7 loss is 2.744787359237671
+memory_train_8 loss is 2.721168851852417
+memory_train_9 loss is 2.6922088940938314
+Restart Num 1
+task--6:
+current test acc:0.7553956834532374
+history test acc:0.7870485678704857
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349, 0.8880597014925373, 0.7553956834532374]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831, 0.8147590361445783, 0.7870485678704857]
+['org:stateorprovince_of_headquarters', 'per:charges', 'per:stateorprovince_of_birth', 'per:title']
+Use adam optim!
+init_train_0 loss is 5.366090971490611
+init_train_1 loss is 5.161249440649281
+init_train_2 loss is 5.078554070514182
+init_train_3 loss is 5.058059588722561
+init_train_4 loss is 5.046824755875961
+init_train_5 loss is 5.042577650236047
+init_train_6 loss is 5.0477307361105215
+init_train_7 loss is 5.037823044735452
+init_train_8 loss is 5.032274598660677
+init_train_9 loss is 5.026916866717131
+Use adam optim!
+memory_train_0 loss is 3.3222075700759888
+memory_train_1 loss is 3.0423290067248874
+memory_train_2 loss is 2.8372291326522827
+memory_train_3 loss is 2.7686154312557645
+memory_train_4 loss is 2.7191099325815835
+memory_train_5 loss is 2.695430768860711
+memory_train_6 loss is 2.676216310924954
+memory_train_7 loss is 2.6398486958609686
+memory_train_8 loss is 2.636235647731357
+memory_train_9 loss is 2.624654597706265
+Restart Num 1
+task--7:
+current test acc:0.9841269841269841
+history test acc:0.8051668460710442
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349, 0.8880597014925373, 0.7553956834532374, 0.9841269841269841]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831, 0.8147590361445783, 0.7870485678704857, 0.8051668460710442]
+['per:stateorprovince_of_death', 'org:number_of_employees/members', 'per:city_of_death', 'per:spouse']
+Use adam optim!
+init_train_0 loss is 5.376944184303284
+init_train_1 loss is 5.231498941779137
+init_train_2 loss is 5.172114655375481
+init_train_3 loss is 5.133394375443459
+init_train_4 loss is 5.1019627302885056
+init_train_5 loss is 5.090632125735283
+init_train_6 loss is 5.106955677270889
+init_train_7 loss is 5.0965636074543
+init_train_8 loss is 5.071627825498581
+init_train_9 loss is 5.104809284210205
+Use adam optim!
+memory_train_0 loss is 3.13640810251236
+memory_train_1 loss is 2.864772546291351
+memory_train_2 loss is 2.7111387848854065
+memory_train_3 loss is 2.6907392740249634
+memory_train_4 loss is 2.6931787967681884
+memory_train_5 loss is 2.6677615642547607
+memory_train_6 loss is 2.658667802810669
+memory_train_7 loss is 2.640495240688324
+memory_train_8 loss is 2.6371317505836487
+memory_train_9 loss is 2.6190642356872558
+Restart Num 1
+task--8:
+current test acc:0.8586956521739131
+history test acc:0.7864838393731636
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349, 0.8880597014925373, 0.7553956834532374, 0.9841269841269841, 0.8586956521739131]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831, 0.8147590361445783, 0.7870485678704857, 0.8051668460710442, 0.7864838393731636]
+['org:website', 'per:age', 'per:city_of_birth', 'per:date_of_death']
+Use adam optim!
+init_train_0 loss is 5.282070386409759
+init_train_1 loss is 5.139658653736115
+init_train_2 loss is 5.068116450309754
+init_train_3 loss is 5.0532624363899235
+init_train_4 loss is 5.04112309217453
+init_train_5 loss is 5.0340200662612915
+init_train_6 loss is 5.02726001739502
+init_train_7 loss is 5.026010918617248
+init_train_8 loss is 5.024098956584931
+init_train_9 loss is 5.021332061290741
+Use adam optim!
+memory_train_0 loss is 3.1086536490398906
+memory_train_1 loss is 2.7907896456511123
+memory_train_2 loss is 2.6733200861060102
+memory_train_3 loss is 2.658504340959632
+memory_train_4 loss is 2.63161563873291
+memory_train_5 loss is 2.6055568301159404
+memory_train_6 loss is 2.5830625451129414
+memory_train_7 loss is 2.5761415025462275
+memory_train_8 loss is 2.564598000567892
+memory_train_9 loss is 2.55842023310454
+Restart Num 1
+task--9:
+current test acc:0.9663865546218487
+history test acc:0.8052631578947368
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349, 0.8880597014925373, 0.7553956834532374, 0.9841269841269841, 0.8586956521739131, 0.9663865546218487]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831, 0.8147590361445783, 0.7870485678704857, 0.8051668460710442, 0.7864838393731636, 0.8052631578947368]
+['org:shareholders', 'org:parents', 'org:city_of_headquarters', 'per:religion']
+Use adam optim!
+init_train_0 loss is 5.5587495103174325
+init_train_1 loss is 5.405057255102664
+init_train_2 loss is 5.3222664424351285
+init_train_3 loss is 5.2668454403779945
+init_train_4 loss is 5.230803226938053
+init_train_5 loss is 5.187266223284663
+init_train_6 loss is 5.159672542494171
+init_train_7 loss is 5.134564662466244
+init_train_8 loss is 5.10341215133667
+init_train_9 loss is 5.087857110159738
+Use adam optim!
+memory_train_0 loss is 3.059547338485718
+memory_train_1 loss is 2.7906448078155517
+memory_train_2 loss is 2.6551644611358642
+memory_train_3 loss is 2.6319923114776613
+memory_train_4 loss is 2.6074903297424314
+memory_train_5 loss is 2.5845834255218505
+memory_train_6 loss is 2.5803251457214356
+memory_train_7 loss is 2.5712883377075197
+memory_train_8 loss is 2.5619447803497315
+memory_train_9 loss is 2.543806486129761
+Restart Num 1
+task--10:
+current test acc:0.8235294117647058
+history test acc:0.7990468625893566
+[0.972972972972973, 0.8598130841121495, 0.8972602739726028, 0.9302325581395349, 0.8880597014925373, 0.7553956834532374, 0.9841269841269841, 0.8586956521739131, 0.9663865546218487, 0.8235294117647058]
+[0.972972972972973, 0.8941176470588236, 0.8603491271820449, 0.8301886792452831, 0.8147590361445783, 0.7870485678704857, 0.8051668460710442, 0.7864838393731636, 0.8052631578947368, 0.7990468625893566]
+['per:alternate_names', 'org:founded', 'per:city_of_birth', 'per:employee_of']
+Use adam optim!
+init_train_0 loss is 6.244225223859151
+init_train_1 loss is 5.829200466473897
+init_train_2 loss is 5.494055721494886
+init_train_3 loss is 5.349013937844171
+init_train_4 loss is 5.248250193066067
+init_train_5 loss is 5.1800264649921
+init_train_6 loss is 5.152881383895874
+init_train_7 loss is 5.1326556073294745
+init_train_8 loss is 5.113818393813239
+init_train_9 loss is 5.1054881943596735
+Restart Num 2
+task--1:
+current test acc:0.9611650485436893
+history test acc:0.9611650485436893
+[0.9611650485436893]
+[0.9611650485436893]
+['org:website', 'org:member_of', 'org:shareholders', 'per:schools_attended']
+Use adam optim!
+init_train_0 loss is 5.852337581770761
+init_train_1 loss is 5.441321492195129
+init_train_2 loss is 5.149517365864345
+init_train_3 loss is 5.039480635098049
+init_train_4 loss is 4.955455337251935
+init_train_5 loss is 4.901709880147662
+init_train_6 loss is 4.856406399181911
+init_train_7 loss is 4.821805000305176
+init_train_8 loss is 4.79944292136601
+init_train_9 loss is 4.786614128521511
+Use adam optim!
+memory_train_0 loss is 2.7236085414886473
+memory_train_1 loss is 2.6776098251342773
+memory_train_2 loss is 2.591316986083984
+memory_train_3 loss is 2.541863203048706
+memory_train_4 loss is 2.513766813278198
+memory_train_5 loss is 2.5026835918426515
+memory_train_6 loss is 2.4752808094024656
+memory_train_7 loss is 2.456114625930786
+memory_train_8 loss is 2.4253827571868896
+memory_train_9 loss is 2.420451593399048
+Restart Num 2
+task--2:
+current test acc:0.8691588785046729
+history test acc:0.8952380952380953
+[0.9611650485436893, 0.8691588785046729]
+[0.9611650485436893, 0.8952380952380953]
+['per:other_family', 'per:title', 'org:country_of_headquarters', 'per:charges']
+Use adam optim!
+init_train_0 loss is 5.357557704371791
+init_train_1 loss is 5.102338337129162
+init_train_2 loss is 4.983751120105866
+init_train_3 loss is 4.943051122849988
+init_train_4 loss is 4.924558824108493
+init_train_5 loss is 4.910929141506072
+init_train_6 loss is 4.908138905802081
+init_train_7 loss is 4.89565223263156
+init_train_8 loss is 4.901074717121739
+init_train_9 loss is 4.891223030705606
+Use adam optim!
+memory_train_0 loss is 3.1955851316452026
+memory_train_1 loss is 3.022811681032181
+memory_train_2 loss is 2.8824527859687805
+memory_train_3 loss is 2.8228867948055267
+memory_train_4 loss is 2.764646589756012
+memory_train_5 loss is 2.7392526865005493
+memory_train_6 loss is 2.693402051925659
+memory_train_7 loss is 2.665468752384186
+memory_train_8 loss is 2.6544277667999268
+memory_train_9 loss is 2.6519208550453186
+Restart Num 2
+task--3:
+current test acc:0.8987341772151899
+history test acc:0.8668478260869565
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565]
+['per:cities_of_residence', 'per:siblings', 'org:parents', 'per:city_of_death']
+Use adam optim!
+init_train_0 loss is 5.377633324691227
+init_train_1 loss is 5.271532944270542
+init_train_2 loss is 5.198285273143223
+init_train_3 loss is 5.12790276323046
+init_train_4 loss is 5.081932485103607
+init_train_5 loss is 5.036468344075339
+init_train_6 loss is 5.014621615409851
+init_train_7 loss is 4.99332195520401
+init_train_8 loss is 4.984144236360278
+init_train_9 loss is 4.976319491863251
+Use adam optim!
+memory_train_0 loss is 3.35801157951355
+memory_train_1 loss is 3.2365634202957154
+memory_train_2 loss is 3.0927541494369506
+memory_train_3 loss is 3.0025742053985596
+memory_train_4 loss is 2.939389729499817
+memory_train_5 loss is 2.8991578578948975
+memory_train_6 loss is 2.8706655979156492
+memory_train_7 loss is 2.8526798486709595
+memory_train_8 loss is 2.8401257038116454
+memory_train_9 loss is 2.802581238746643
+Restart Num 2
+task--4:
+current test acc:0.6944444444444444
+history test acc:0.783203125
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125]
+['org:number_of_employees/members', 'org:founded_by', 'per:date_of_birth', 'org:stateorprovince_of_headquarters']
+Use adam optim!
+init_train_0 loss is 5.279078107891661
+init_train_1 loss is 5.105604070605653
+init_train_2 loss is 5.028817942648223
+init_train_3 loss is 5.008274150617195
+init_train_4 loss is 4.996643933382901
+init_train_5 loss is 4.990614399765477
+init_train_6 loss is 4.988377730051677
+init_train_7 loss is 4.985526995225386
+init_train_8 loss is 4.984939546296091
+init_train_9 loss is 4.983030463709976
+Use adam optim!
+memory_train_0 loss is 3.316746950149536
+memory_train_1 loss is 3.0595241693349986
+memory_train_2 loss is 2.909875594652616
+memory_train_3 loss is 2.8544399371513953
+memory_train_4 loss is 2.828300512754
+memory_train_5 loss is 2.7722856264847975
+memory_train_6 loss is 2.718102271740253
+memory_train_7 loss is 2.7046332909510684
+memory_train_8 loss is 2.6980487383328953
+memory_train_9 loss is 2.672667851814857
+Restart Num 2
+task--5:
+current test acc:0.9099099099099099
+history test acc:0.7897271268057785
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444, 0.9099099099099099]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125, 0.7897271268057785]
+['per:countries_of_residence', 'per:religion', 'per:date_of_death', 'per:stateorprovince_of_death']
+Use adam optim!
+init_train_0 loss is 5.510931303626613
+init_train_1 loss is 5.299467475790727
+init_train_2 loss is 5.166242298326995
+init_train_3 loss is 5.125315879520617
+init_train_4 loss is 5.1094650594811695
+init_train_5 loss is 5.090796922382555
+init_train_6 loss is 5.086870017804597
+init_train_7 loss is 5.072705620213559
+init_train_8 loss is 5.072861006385402
+init_train_9 loss is 5.072121431953029
+Use adam optim!
+memory_train_0 loss is 3.247358560562134
+memory_train_1 loss is 2.9736249764760334
+memory_train_2 loss is 2.8221075693766275
+memory_train_3 loss is 2.772268565495809
+memory_train_4 loss is 2.7400495847066244
+memory_train_5 loss is 2.7103667577107746
+memory_train_6 loss is 2.683280022939046
+memory_train_7 loss is 2.664487902323405
+memory_train_8 loss is 2.6583851178487143
+memory_train_9 loss is 2.6419565518697103
+Restart Num 2
+task--6:
+current test acc:0.9636363636363636
+history test acc:0.8130968622100955
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444, 0.9099099099099099, 0.9636363636363636]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125, 0.7897271268057785, 0.8130968622100955]
+['per:spouse', 'per:age', 'per:country_of_birth', 'per:stateorprovince_of_birth']
+Use adam optim!
+init_train_0 loss is 5.4090762706029984
+init_train_1 loss is 5.302772703624907
+init_train_2 loss is 5.25200495265779
+init_train_3 loss is 5.2359834398542136
+init_train_4 loss is 5.231053272883098
+init_train_5 loss is 5.229283241998582
+init_train_6 loss is 5.221755061830793
+init_train_7 loss is 5.217506147566295
+init_train_8 loss is 5.2223034245627264
+init_train_9 loss is 5.22132624898638
+Use adam optim!
+memory_train_0 loss is 3.2788275612725153
+memory_train_1 loss is 2.9910460313161216
+memory_train_2 loss is 2.81922087404463
+memory_train_3 loss is 2.7544758452309503
+memory_train_4 loss is 2.732154289881388
+memory_train_5 loss is 2.7101911438835993
+memory_train_6 loss is 2.6712019443511963
+memory_train_7 loss is 2.658994992574056
+memory_train_8 loss is 2.6492805083592734
+memory_train_9 loss is 2.6277957757314048
+Restart Num 2
+task--7:
+current test acc:0.8865979381443299
+history test acc:0.8132530120481928
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444, 0.9099099099099099, 0.9636363636363636, 0.8865979381443299]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125, 0.7897271268057785, 0.8130968622100955, 0.8132530120481928]
+['per:cause_of_death', 'org:dissolved', 'org:city_of_headquarters', 'org:members']
+Use adam optim!
+init_train_0 loss is 5.48267492055893
+init_train_1 loss is 5.28170154094696
+init_train_2 loss is 5.184903907775879
+init_train_3 loss is 5.152658069133759
+init_train_4 loss is 5.119698750972748
+init_train_5 loss is 5.113759899139405
+init_train_6 loss is 5.110992443561554
+init_train_7 loss is 5.106645393371582
+init_train_8 loss is 5.105978119373321
+init_train_9 loss is 5.10303817987442
+Use adam optim!
+memory_train_0 loss is 3.2785547018051147
+memory_train_1 loss is 2.9401023983955383
+memory_train_2 loss is 2.7708717823028564
+memory_train_3 loss is 2.738430893421173
+memory_train_4 loss is 2.71407470703125
+memory_train_5 loss is 2.695231592655182
+memory_train_6 loss is 2.655203568935394
+memory_train_7 loss is 2.6288657426834106
+memory_train_8 loss is 2.622021484375
+memory_train_9 loss is 2.6186159253120422
+Restart Num 2
+task--8:
+current test acc:0.8403361344537815
+history test acc:0.8113804004214963
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444, 0.9099099099099099, 0.9636363636363636, 0.8865979381443299, 0.8403361344537815]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125, 0.7897271268057785, 0.8130968622100955, 0.8132530120481928, 0.8113804004214963]
+['per:origin', 'per:children', 'per:stateorprovinces_of_residence', 'org:political/religious_affiliation']
+Use adam optim!
+init_train_0 loss is 5.198686607813431
+init_train_1 loss is 5.056275707180217
+init_train_2 loss is 4.990621615264375
+init_train_3 loss is 4.968820151636156
+init_train_4 loss is 4.96163604219081
+init_train_5 loss is 4.949681484093101
+init_train_6 loss is 4.942586058277195
+init_train_7 loss is 4.942603143595033
+init_train_8 loss is 4.933982000512592
+init_train_9 loss is 4.934325210118698
+Use adam optim!
+memory_train_0 loss is 3.2184019710706626
+memory_train_1 loss is 2.9403941216676133
+memory_train_2 loss is 2.748573686765588
+memory_train_3 loss is 2.7149418333302373
+memory_train_4 loss is 2.7033410797948423
+memory_train_5 loss is 2.6836168351380723
+memory_train_6 loss is 2.6620013299195664
+memory_train_7 loss is 2.6539284353670864
+memory_train_8 loss is 2.6419439937757407
+memory_train_9 loss is 2.6203479144884194
+Restart Num 2
+task--9:
+current test acc:0.8287671232876712
+history test acc:0.8045662100456621
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444, 0.9099099099099099, 0.9636363636363636, 0.8865979381443299, 0.8403361344537815, 0.8287671232876712]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125, 0.7897271268057785, 0.8130968622100955, 0.8132530120481928, 0.8113804004214963, 0.8045662100456621]
+['per:parents', 'org:top_members/employees', 'org:subsidiaries', 'org:alternate_names']
+Use adam optim!
+init_train_0 loss is 5.401233990987142
+init_train_1 loss is 5.2030979130003185
+init_train_2 loss is 5.10351214143965
+init_train_3 loss is 5.031636039415996
+init_train_4 loss is 4.990954564677344
+init_train_5 loss is 4.942799276775784
+init_train_6 loss is 4.910029848416646
+init_train_7 loss is 4.891037517123753
+init_train_8 loss is 4.8886942863464355
+init_train_9 loss is 4.877177404032813
+Use adam optim!
+memory_train_0 loss is 3.3166064548492433
+memory_train_1 loss is 2.971058874130249
+memory_train_2 loss is 2.775379180908203
+memory_train_3 loss is 2.6981762218475343
+memory_train_4 loss is 2.6766055488586424
+memory_train_5 loss is 2.656962080001831
+memory_train_6 loss is 2.6278421020507814
+memory_train_7 loss is 2.6156487560272215
+memory_train_8 loss is 2.598141002655029
+memory_train_9 loss is 2.5840994262695314
+Restart Num 2
+task--10:
+current test acc:0.8719512195121951
+history test acc:0.7903097696584591
+[0.9611650485436893, 0.8691588785046729, 0.8987341772151899, 0.6944444444444444, 0.9099099099099099, 0.9636363636363636, 0.8865979381443299, 0.8403361344537815, 0.8287671232876712, 0.8719512195121951]
+[0.9611650485436893, 0.8952380952380953, 0.8668478260869565, 0.783203125, 0.7897271268057785, 0.8130968622100955, 0.8132530120481928, 0.8113804004214963, 0.8045662100456621, 0.7903097696584591]
+['per:stateorprovinces_of_residence', 'per:age', 'per:parents', 'per:date_of_birth']
+Use adam optim!
+init_train_0 loss is 5.897556614457515
+init_train_1 loss is 5.325176347766006
+init_train_2 loss is 5.072888784241258
+init_train_3 loss is 5.027448428304572
+init_train_4 loss is 5.004621547565126
+init_train_5 loss is 5.0037610990959305
+init_train_6 loss is 4.999430330176103
+init_train_7 loss is 4.972440665228325
+init_train_8 loss is 4.99380656292564
+init_train_9 loss is 4.990858320604291
+Restart Num 3
+task--1:
+current test acc:0.9854014598540146
+history test acc:0.9854014598540146
+[0.9854014598540146]
+[0.9854014598540146]
+['org:political/religious_affiliation', 'per:schools_attended', 'per:cities_of_residence', 'org:number_of_employees/members']
+Use adam optim!
+init_train_0 loss is 5.637933921813965
+init_train_1 loss is 5.283985960483551
+init_train_2 loss is 5.125527656078338
+init_train_3 loss is 5.07780784368515
+init_train_4 loss is 5.0598352432250975
+init_train_5 loss is 5.030325877666473
+init_train_6 loss is 5.026565968990326
+init_train_7 loss is 5.01438866853714
+init_train_8 loss is 5.019165325164795
+init_train_9 loss is 5.0111056685447695
+Use adam optim!
+memory_train_0 loss is 2.7828179836273192
+memory_train_1 loss is 2.710997724533081
+memory_train_2 loss is 2.6394958019256594
+memory_train_3 loss is 2.590577745437622
+memory_train_4 loss is 2.5402902603149413
+memory_train_5 loss is 2.4999203205108644
+memory_train_6 loss is 2.4497568607330322
+memory_train_7 loss is 2.425160264968872
+memory_train_8 loss is 2.4018701553344726
+memory_train_9 loss is 2.3731315612792967
+Restart Num 3
+task--2:
+current test acc:0.9572649572649573
+history test acc:0.9566929133858267
+[0.9854014598540146, 0.9572649572649573]
+[0.9854014598540146, 0.9566929133858267]
+['org:subsidiaries', 'org:city_of_headquarters', 'per:children', 'org:stateorprovince_of_headquarters']
+Use adam optim!
+init_train_0 loss is 5.336054097360639
+init_train_1 loss is 5.141264289172728
+init_train_2 loss is 5.049385875018675
+init_train_3 loss is 5.000279369638927
+init_train_4 loss is 4.964145596347638
+init_train_5 loss is 4.938523740910772
+init_train_6 loss is 4.922377351504653
+init_train_7 loss is 4.9099778915519146
+init_train_8 loss is 4.90910518703176
+init_train_9 loss is 4.895634971447845
+Use adam optim!
+memory_train_0 loss is 2.7986418902873993
+memory_train_1 loss is 2.7319751381874084
+memory_train_2 loss is 2.7209061682224274
+memory_train_3 loss is 2.6613280177116394
+memory_train_4 loss is 2.6125925481319427
+memory_train_5 loss is 2.5924874544143677
+memory_train_6 loss is 2.5719873309135437
+memory_train_7 loss is 2.5521797239780426
+memory_train_8 loss is 2.5459417402744293
+memory_train_9 loss is 2.5518490076065063
+Restart Num 3
+task--3:
+current test acc:0.9146341463414634
+history test acc:0.8923444976076556
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556]
+['per:employee_of', 'org:top_members/employees', 'org:parents', 'per:stateorprovince_of_birth']
+Use adam optim!
+init_train_0 loss is 5.302736343876008
+init_train_1 loss is 5.164100223971952
+init_train_2 loss is 5.087661981582642
+init_train_3 loss is 5.052328078977523
+init_train_4 loss is 5.038313342678931
+init_train_5 loss is 5.026116409609394
+init_train_6 loss is 5.033063119457614
+init_train_7 loss is 5.014223698646791
+init_train_8 loss is 5.010568811047461
+init_train_9 loss is 5.014614320570423
+Use adam optim!
+memory_train_0 loss is 3.166620111465454
+memory_train_1 loss is 3.037062478065491
+memory_train_2 loss is 2.9370739698410033
+memory_train_3 loss is 2.8638965606689455
+memory_train_4 loss is 2.8350680112838744
+memory_train_5 loss is 2.8158225059509276
+memory_train_6 loss is 2.7630357265472414
+memory_train_7 loss is 2.7418662786483763
+memory_train_8 loss is 2.7135833978652952
+memory_train_9 loss is 2.684940552711487
+Restart Num 3
+task--4:
+current test acc:0.7803030303030303
+history test acc:0.8418181818181818
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818]
+['per:countries_of_residence', 'per:religion', 'org:founded', 'org:founded_by']
+Use adam optim!
+init_train_0 loss is 5.389834676470075
+init_train_1 loss is 5.12094843955267
+init_train_2 loss is 5.058673529397874
+init_train_3 loss is 5.031542142232259
+init_train_4 loss is 5.015675147374471
+init_train_5 loss is 4.9800601573217484
+init_train_6 loss is 4.99446379570734
+init_train_7 loss is 5.003404833021618
+init_train_8 loss is 5.001315253121512
+init_train_9 loss is 5.000689960661388
+Use adam optim!
+memory_train_0 loss is 3.41764026421767
+memory_train_1 loss is 3.079202028421255
+memory_train_2 loss is 2.9301077402555027
+memory_train_3 loss is 2.8487947353949914
+memory_train_4 loss is 2.7838554198925314
+memory_train_5 loss is 2.750063364322369
+memory_train_6 loss is 2.7318302301260142
+memory_train_7 loss is 2.7046459638155422
+memory_train_8 loss is 2.6718479853409987
+memory_train_9 loss is 2.632749209037194
+Restart Num 3
+task--5:
+current test acc:0.8709677419354839
+history test acc:0.8456973293768546
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303, 0.8709677419354839]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818, 0.8456973293768546]
+['per:stateorprovince_of_death', 'org:country_of_headquarters', 'per:country_of_birth', 'per:other_family']
+Use adam optim!
+init_train_0 loss is 5.4408652782440186
+init_train_1 loss is 5.345927702753167
+init_train_2 loss is 5.264123439788818
+init_train_3 loss is 5.218428084724827
+init_train_4 loss is 5.210461942773116
+init_train_5 loss is 5.210038825085289
+init_train_6 loss is 5.198629404369154
+init_train_7 loss is 5.186878568247745
+init_train_8 loss is 5.179397394782619
+init_train_9 loss is 5.162131008348967
+Use adam optim!
+memory_train_0 loss is 3.1765995820363364
+memory_train_1 loss is 3.0282251834869385
+memory_train_2 loss is 2.9086280186971027
+memory_train_3 loss is 2.853648471832275
+memory_train_4 loss is 2.8094303448994955
+memory_train_5 loss is 2.783225440979004
+memory_train_6 loss is 2.7475699106852214
+memory_train_7 loss is 2.713909069697062
+memory_train_8 loss is 2.7082499186197917
+memory_train_9 loss is 2.6845884641011555
+Restart Num 3
+task--6:
+current test acc:0.84
+history test acc:0.7971576227390181
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303, 0.8709677419354839, 0.84]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818, 0.8456973293768546, 0.7971576227390181]
+['org:alternate_names', 'per:alternate_names', 'per:origin', 'org:shareholders']
+Use adam optim!
+init_train_0 loss is 5.4849185289121145
+init_train_1 loss is 5.327185565350103
+init_train_2 loss is 5.2277656910466215
+init_train_3 loss is 5.17791820974911
+init_train_4 loss is 5.134696792153751
+init_train_5 loss is 5.102094949460497
+init_train_6 loss is 5.087779802434585
+init_train_7 loss is 5.0675578117370605
+init_train_8 loss is 5.058374573202694
+init_train_9 loss is 5.052678500904756
+Use adam optim!
+memory_train_0 loss is 3.274768498208788
+memory_train_1 loss is 3.076057924164666
+memory_train_2 loss is 2.9236017730500965
+memory_train_3 loss is 2.875048293007745
+memory_train_4 loss is 2.8366489675309925
+memory_train_5 loss is 2.8136811123953924
+memory_train_6 loss is 2.792306317223443
+memory_train_7 loss is 2.738195061683655
+memory_train_8 loss is 2.7161206801732383
+memory_train_9 loss is 2.692947374449836
+Restart Num 3
+task--7:
+current test acc:0.7377049180327869
+history test acc:0.7779017857142857
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303, 0.8709677419354839, 0.84, 0.7377049180327869]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818, 0.8456973293768546, 0.7971576227390181, 0.7779017857142857]
+['org:website', 'org:dissolved', 'org:member_of', 'per:city_of_birth']
+Use adam optim!
+init_train_0 loss is 5.246999138279965
+init_train_1 loss is 4.901012872394762
+init_train_2 loss is 4.664504528045654
+init_train_3 loss is 4.579637853722823
+init_train_4 loss is 4.544957236239784
+init_train_5 loss is 4.525178884205065
+init_train_6 loss is 4.515590190887451
+init_train_7 loss is 4.49926905882986
+init_train_8 loss is 4.503005429318077
+init_train_9 loss is 4.49655492682206
+Use adam optim!
+memory_train_0 loss is 3.257197451591492
+memory_train_1 loss is 2.964775562286377
+memory_train_2 loss is 2.8023048400878907
+memory_train_3 loss is 2.765773022174835
+memory_train_4 loss is 2.762292432785034
+memory_train_5 loss is 2.730737364292145
+memory_train_6 loss is 2.7089424610137938
+memory_train_7 loss is 2.6860892534255982
+memory_train_8 loss is 2.665678524971008
+memory_train_9 loss is 2.649512600898743
+Restart Num 3
+task--8:
+current test acc:0.6891891891891891
+history test acc:0.7701030927835052
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303, 0.8709677419354839, 0.84, 0.7377049180327869, 0.6891891891891891]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818, 0.8456973293768546, 0.7971576227390181, 0.7779017857142857, 0.7701030927835052]
+['per:date_of_death', 'per:title', 'per:cause_of_death', 'per:spouse']
+Use adam optim!
+init_train_0 loss is 5.335097593920572
+init_train_1 loss is 5.088849978787558
+init_train_2 loss is 4.97328291620527
+init_train_3 loss is 4.942515160356249
+init_train_4 loss is 4.927988903863089
+init_train_5 loss is 4.917702257633209
+init_train_6 loss is 4.91096431016922
+init_train_7 loss is 4.905076469693865
+init_train_8 loss is 4.907242545059749
+init_train_9 loss is 4.905853731291635
+Use adam optim!
+memory_train_0 loss is 3.3262560989545737
+memory_train_1 loss is 2.9412719270457393
+memory_train_2 loss is 2.772488511126974
+memory_train_3 loss is 2.7058598269586978
+memory_train_4 loss is 2.6828634324281113
+memory_train_5 loss is 2.6687861214513364
+memory_train_6 loss is 2.6498218101003896
+memory_train_7 loss is 2.6254957447881284
+memory_train_8 loss is 2.6159463136092476
+memory_train_9 loss is 2.600460570791493
+Restart Num 3
+task--9:
+current test acc:0.9342105263157895
+history test acc:0.7887700534759359
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303, 0.8709677419354839, 0.84, 0.7377049180327869, 0.6891891891891891, 0.9342105263157895]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818, 0.8456973293768546, 0.7971576227390181, 0.7779017857142857, 0.7701030927835052, 0.7887700534759359]
+['per:charges', 'per:city_of_death', 'per:siblings', 'org:members']
+Use adam optim!
+init_train_0 loss is 5.145212133725484
+init_train_1 loss is 4.990933948092991
+init_train_2 loss is 4.9142548773023815
+init_train_3 loss is 4.8920340405570135
+init_train_4 loss is 4.883827805519104
+init_train_5 loss is 4.875108533435398
+init_train_6 loss is 4.8722525967492
+init_train_7 loss is 4.871244708697001
+init_train_8 loss is 4.870423131518894
+init_train_9 loss is 4.868250979317559
+Use adam optim!
+memory_train_0 loss is 3.410694246292114
+memory_train_1 loss is 3.0024614429473875
+memory_train_2 loss is 2.74831431388855
+memory_train_3 loss is 2.686464214324951
+memory_train_4 loss is 2.6690782737731933
+memory_train_5 loss is 2.6416944313049315
+memory_train_6 loss is 2.6263097286224366
+memory_train_7 loss is 2.61500937461853
+memory_train_8 loss is 2.5949201488494875
+memory_train_9 loss is 2.59309383392334
+Restart Num 3
+task--10:
+current test acc:0.8175182481751825
+history test acc:0.7625099285146942
+[0.9854014598540146, 0.9572649572649573, 0.9146341463414634, 0.7803030303030303, 0.8709677419354839, 0.84, 0.7377049180327869, 0.6891891891891891, 0.9342105263157895, 0.8175182481751825]
+[0.9854014598540146, 0.9566929133858267, 0.8923444976076556, 0.8418181818181818, 0.8456973293768546, 0.7971576227390181, 0.7779017857142857, 0.7701030927835052, 0.7887700534759359, 0.7625099285146942]
+['per:schools_attended', 'per:origin', 'per:age', 'per:stateorprovinces_of_residence']
+Use adam optim!
+init_train_0 loss is 5.915880265443222
+init_train_1 loss is 5.397145761959795
+init_train_2 loss is 5.104939419290294
+init_train_3 loss is 5.0030796769736465
+init_train_4 loss is 4.961712775023087
+init_train_5 loss is 4.939004096432009
+init_train_6 loss is 4.925338206083878
+init_train_7 loss is 4.910028229589048
+init_train_8 loss is 4.904066949650861
+init_train_9 loss is 4.892456206722536
+Restart Num 4
+task--1:
+current test acc:0.9746835443037974
+history test acc:0.9746835443037974
+[0.9746835443037974]
+[0.9746835443037974]
+['org:stateorprovince_of_headquarters', 'per:parents', 'per:date_of_birth', 'per:spouse']
+Use adam optim!
+init_train_0 loss is 5.502885847675557
+init_train_1 loss is 5.401106211603905
+init_train_2 loss is 5.3410745834817694
+init_train_3 loss is 5.2287081407040965
+init_train_4 loss is 5.0956737557236025
+init_train_5 loss is 5.023665418430251
+init_train_6 loss is 4.9957714567379075
+init_train_7 loss is 4.973435285140057
+init_train_8 loss is 4.958812100546701
+init_train_9 loss is 4.960721327334034
+Use adam optim!
+memory_train_0 loss is 2.9573529243469237
+memory_train_1 loss is 2.8207397937774656
+memory_train_2 loss is 2.7299971103668215
+memory_train_3 loss is 2.670442485809326
+memory_train_4 loss is 2.60144681930542
+memory_train_5 loss is 2.562255859375
+memory_train_6 loss is 2.533927249908447
+memory_train_7 loss is 2.4979347705841066
+memory_train_8 loss is 2.4712586402893066
+memory_train_9 loss is 2.454093265533447
+Restart Num 4
+task--2:
+current test acc:0.9343065693430657
+history test acc:0.9491525423728814
+[0.9746835443037974, 0.9343065693430657]
+[0.9746835443037974, 0.9491525423728814]
+['per:cities_of_residence', 'org:city_of_headquarters', 'org:political/religious_affiliation', 'org:shareholders']
+Use adam optim!
+init_train_0 loss is 5.647748769498339
+init_train_1 loss is 5.342720770368389
+init_train_2 loss is 5.197757103863885
+init_train_3 loss is 5.149074919083539
+init_train_4 loss is 5.102477943196016
+init_train_5 loss is 5.076077526690913
+init_train_6 loss is 5.0574158500222595
+init_train_7 loss is 5.056325865726845
+init_train_8 loss is 5.0437369066126205
+init_train_9 loss is 5.0529652015835635
+Use adam optim!
+memory_train_0 loss is 3.0072631239891052
+memory_train_1 loss is 2.8757693767547607
+memory_train_2 loss is 2.7298245429992676
+memory_train_3 loss is 2.694027215242386
+memory_train_4 loss is 2.6739334762096405
+memory_train_5 loss is 2.646039843559265
+memory_train_6 loss is 2.6279607713222504
+memory_train_7 loss is 2.636540472507477
+memory_train_8 loss is 2.602125883102417
+memory_train_9 loss is 2.5730331242084503
+Restart Num 4
+task--3:
+current test acc:0.8934426229508197
+history test acc:0.9256594724220624
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624]
+['per:alternate_names', 'per:other_family', 'org:alternate_names', 'per:religion']
+Use adam optim!
+init_train_0 loss is 5.594953320243142
+init_train_1 loss is 5.3981769626790825
+init_train_2 loss is 5.302974863485857
+init_train_3 loss is 5.230388251217929
+init_train_4 loss is 5.195038242773577
+init_train_5 loss is 5.125449754975059
+init_train_6 loss is 5.078330419280312
+init_train_7 loss is 5.036602692170576
+init_train_8 loss is 5.01868398623033
+init_train_9 loss is 5.013712579553777
+Use adam optim!
+memory_train_0 loss is 3.078772854804993
+memory_train_1 loss is 2.9329126596450807
+memory_train_2 loss is 2.8332651615142823
+memory_train_3 loss is 2.7543401956558227
+memory_train_4 loss is 2.681308150291443
+memory_train_5 loss is 2.6472835302352906
+memory_train_6 loss is 2.621800661087036
+memory_train_7 loss is 2.5855631828308105
+memory_train_8 loss is 2.5854061365127565
+memory_train_9 loss is 2.5845510005950927
+Restart Num 4
+task--4:
+current test acc:0.896
+history test acc:0.8782287822878229
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229]
+['org:dissolved', 'per:city_of_birth', 'org:website', 'per:countries_of_residence']
+Use adam optim!
+init_train_0 loss is 5.506999224424362
+init_train_1 loss is 5.393453776836395
+init_train_2 loss is 5.323066771030426
+init_train_3 loss is 5.288402318954468
+init_train_4 loss is 5.27216212451458
+init_train_5 loss is 5.260000288486481
+init_train_6 loss is 5.245898261666298
+init_train_7 loss is 5.253970175981522
+init_train_8 loss is 5.24871464073658
+init_train_9 loss is 5.247132271528244
+Use adam optim!
+memory_train_0 loss is 3.0943409296182485
+memory_train_1 loss is 2.889903086882371
+memory_train_2 loss is 2.7607165483328013
+memory_train_3 loss is 2.7240551801828237
+memory_train_4 loss is 2.694686302771935
+memory_train_5 loss is 2.6579406628241906
+memory_train_6 loss is 2.6304799960209775
+memory_train_7 loss is 2.6183071319873514
+memory_train_8 loss is 2.6161868572235107
+memory_train_9 loss is 2.6054805425497203
+Restart Num 4
+task--5:
+current test acc:0.8850574712643678
+history test acc:0.8664546899841018
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896, 0.8850574712643678]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229, 0.8664546899841018]
+['per:children', 'org:members', 'per:charges', 'per:siblings']
+Use adam optim!
+init_train_0 loss is 5.432933441428251
+init_train_1 loss is 5.242108600084172
+init_train_2 loss is 5.119821881139001
+init_train_3 loss is 5.037144450254218
+init_train_4 loss is 4.978188326192456
+init_train_5 loss is 4.9387020732081215
+init_train_6 loss is 4.910127085308696
+init_train_7 loss is 4.89037835320761
+init_train_8 loss is 4.891827117565066
+init_train_9 loss is 4.883651289828988
+Use adam optim!
+memory_train_0 loss is 3.211484416325887
+memory_train_1 loss is 2.9389532725016276
+memory_train_2 loss is 2.768220631281535
+memory_train_3 loss is 2.70653821627299
+memory_train_4 loss is 2.6630848248799643
+memory_train_5 loss is 2.6447087287902833
+memory_train_6 loss is 2.630827792485555
+memory_train_7 loss is 2.608730363845825
+memory_train_8 loss is 2.5899710496266684
+memory_train_9 loss is 2.5821130434672037
+Restart Num 4
+task--6:
+current test acc:0.8789808917197452
+history test acc:0.851145038167939
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896, 0.8850574712643678, 0.8789808917197452]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229, 0.8664546899841018, 0.851145038167939]
+['per:country_of_birth', 'per:title', 'org:top_members/employees', 'per:date_of_death']
+Use adam optim!
+init_train_0 loss is 5.333799545581524
+init_train_1 loss is 5.202095802013691
+init_train_2 loss is 5.118463121927702
+init_train_3 loss is 5.1030753667537985
+init_train_4 loss is 5.0920622532184305
+init_train_5 loss is 5.0738564271193285
+init_train_6 loss is 5.0720625290503865
+init_train_7 loss is 5.068618251727178
+init_train_8 loss is 5.068949635212238
+init_train_9 loss is 5.079524425359873
+Use adam optim!
+memory_train_0 loss is 3.2221893469492593
+memory_train_1 loss is 2.9444815980063543
+memory_train_2 loss is 2.761542068587409
+memory_train_3 loss is 2.701025446256002
+memory_train_4 loss is 2.683098077774048
+memory_train_5 loss is 2.65153529908922
+memory_train_6 loss is 2.6200875838597617
+memory_train_7 loss is 2.6071950727038913
+memory_train_8 loss is 2.599164048830668
+memory_train_9 loss is 2.5731287929746838
+Restart Num 4
+task--7:
+current test acc:0.944
+history test acc:0.854006586169045
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896, 0.8850574712643678, 0.8789808917197452, 0.944]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229, 0.8664546899841018, 0.851145038167939, 0.854006586169045]
+['per:stateorprovince_of_birth', 'org:member_of', 'per:stateorprovince_of_death', 'org:founded']
+Use adam optim!
+init_train_0 loss is 4.865010336825722
+init_train_1 loss is 4.713498592376709
+init_train_2 loss is 4.620749448475085
+init_train_3 loss is 4.568929973401521
+init_train_4 loss is 4.528871335481343
+init_train_5 loss is 4.490809039065712
+init_train_6 loss is 4.4727900906613
+init_train_7 loss is 4.460389614105225
+init_train_8 loss is 4.451678326255397
+init_train_9 loss is 4.451188112560072
+Use adam optim!
+memory_train_0 loss is 3.2388246178627016
+memory_train_1 loss is 2.945750117301941
+memory_train_2 loss is 2.760770797729492
+memory_train_3 loss is 2.708577370643616
+memory_train_4 loss is 2.6847277641296388
+memory_train_5 loss is 2.6636643290519713
+memory_train_6 loss is 2.6534037232398986
+memory_train_7 loss is 2.631524217128754
+memory_train_8 loss is 2.6257086396217346
+memory_train_9 loss is 2.6102604031562806
+Restart Num 4
+task--8:
+current test acc:0.7297297297297297
+history test acc:0.8182741116751269
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896, 0.8850574712643678, 0.8789808917197452, 0.944, 0.7297297297297297]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229, 0.8664546899841018, 0.851145038167939, 0.854006586169045, 0.8182741116751269]
+['org:number_of_employees/members', 'per:employee_of', 'org:parents', 'org:founded_by']
+Use adam optim!
+init_train_0 loss is 5.2475949746591075
+init_train_1 loss is 5.132190827970152
+init_train_2 loss is 5.04991540202388
+init_train_3 loss is 5.010902837470725
+init_train_4 loss is 4.994867006937663
+init_train_5 loss is 4.983963869236134
+init_train_6 loss is 4.975069867240058
+init_train_7 loss is 4.9672512566601785
+init_train_8 loss is 4.969359044675474
+init_train_9 loss is 4.967383066813151
+Use adam optim!
+memory_train_0 loss is 3.487594936204993
+memory_train_1 loss is 3.0175017584925112
+memory_train_2 loss is 2.7932111284007197
+memory_train_3 loss is 2.7342983017797056
+memory_train_4 loss is 2.692174787106721
+memory_train_5 loss is 2.6889180722443955
+memory_train_6 loss is 2.66992157438527
+memory_train_7 loss is 2.641639419223951
+memory_train_8 loss is 2.636717972548112
+memory_train_9 loss is 2.610593775044317
+Restart Num 4
+task--9:
+current test acc:0.8043478260869565
+history test acc:0.7853962600178095
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896, 0.8850574712643678, 0.8789808917197452, 0.944, 0.7297297297297297, 0.8043478260869565]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229, 0.8664546899841018, 0.851145038167939, 0.854006586169045, 0.8182741116751269, 0.7853962600178095]
+['per:city_of_death', 'per:cause_of_death', 'org:country_of_headquarters', 'org:subsidiaries']
+Use adam optim!
+init_train_0 loss is 5.373627302781591
+init_train_1 loss is 5.155077043569313
+init_train_2 loss is 5.05101663661453
+init_train_3 loss is 5.020927294245306
+init_train_4 loss is 5.004832330739723
+init_train_5 loss is 4.991096208680351
+init_train_6 loss is 4.9803460229117915
+init_train_7 loss is 4.970248843139073
+init_train_8 loss is 4.965258157478188
+init_train_9 loss is 4.967110085037519
+Use adam optim!
+memory_train_0 loss is 3.348313817977905
+memory_train_1 loss is 2.981100072860718
+memory_train_2 loss is 2.7893613815307616
+memory_train_3 loss is 2.7268489360809327
+memory_train_4 loss is 2.6921948051452635
+memory_train_5 loss is 2.6677796745300295
+memory_train_6 loss is 2.6504250240325926
+memory_train_7 loss is 2.6336070728302
+memory_train_8 loss is 2.6155237197875976
+memory_train_9 loss is 2.602242832183838
+Restart Num 4
+task--10:
+current test acc:0.8970588235294118
+history test acc:0.7696584590945195
+[0.9746835443037974, 0.9343065693430657, 0.8934426229508197, 0.896, 0.8850574712643678, 0.8789808917197452, 0.944, 0.7297297297297297, 0.8043478260869565, 0.8970588235294118]
+[0.9746835443037974, 0.9491525423728814, 0.9256594724220624, 0.8782287822878229, 0.8664546899841018, 0.851145038167939, 0.854006586169045, 0.8182741116751269, 0.7853962600178095, 0.7696584590945195]
+['org:alternate_names', 'per:charges', 'per:schools_attended', 'per:cause_of_death']
+Use adam optim!
+init_train_0 loss is 5.944272112339101
+init_train_1 loss is 5.43743980691788
+init_train_2 loss is 5.155775476009287
+init_train_3 loss is 5.06624027008706
+init_train_4 loss is 5.012497414933875
+init_train_5 loss is 4.983482401421729
+init_train_6 loss is 4.9647941183536615
+init_train_7 loss is 4.948656487972178
+init_train_8 loss is 4.9341832830550825
+init_train_9 loss is 4.936959662335984
+Restart Num 5
+task--1:
+current test acc:0.9930555555555556
+history test acc:0.9930555555555556
+[0.9930555555555556]
+[0.9930555555555556]
+['org:stateorprovince_of_headquarters', 'per:stateorprovinces_of_residence', 'per:city_of_birth', 'per:country_of_birth']
+Use adam optim!
+init_train_0 loss is 5.852231490902785
+init_train_1 loss is 5.635962649089534
+init_train_2 loss is 5.523833298101658
+init_train_3 loss is 5.414502492765101
+init_train_4 loss is 5.373415853919052
+init_train_5 loss is 5.30775955246716
+init_train_6 loss is 5.264849918644603
+init_train_7 loss is 5.244326754314144
+init_train_8 loss is 5.230845695588647
+init_train_9 loss is 5.2214802648963
+Use adam optim!
+memory_train_0 loss is 2.7137957572937013
+memory_train_1 loss is 2.659436893463135
+memory_train_2 loss is 2.5872800827026365
+memory_train_3 loss is 2.5544779777526854
+memory_train_4 loss is 2.5026699542999267
+memory_train_5 loss is 2.4890907287597654
+memory_train_6 loss is 2.4335876941680907
+memory_train_7 loss is 2.400952672958374
+memory_train_8 loss is 2.3868340492248534
+memory_train_9 loss is 2.3681480407714846
+Restart Num 5
+task--2:
+current test acc:0.9509803921568627
+history test acc:0.9634146341463414
+[0.9930555555555556, 0.9509803921568627]
+[0.9930555555555556, 0.9634146341463414]
+['per:stateorprovince_of_death', 'per:date_of_birth', 'org:number_of_employees/members', 'per:cities_of_residence']
+Use adam optim!
+init_train_0 loss is 5.840313404798508
+init_train_1 loss is 5.489519342780113
+init_train_2 loss is 5.340126916766167
+init_train_3 loss is 5.292325586080551
+init_train_4 loss is 5.2488532811403275
+init_train_5 loss is 5.22276845574379
+init_train_6 loss is 5.215586811304092
+init_train_7 loss is 5.204175218939781
+init_train_8 loss is 5.198278367519379
+init_train_9 loss is 5.189435228705406
+Use adam optim!
+memory_train_0 loss is 3.0062080919742584
+memory_train_1 loss is 2.8687898218631744
+memory_train_2 loss is 2.758153736591339
+memory_train_3 loss is 2.6704191267490387
+memory_train_4 loss is 2.632886976003647
+memory_train_5 loss is 2.5957212150096893
+memory_train_6 loss is 2.5718468725681305
+memory_train_7 loss is 2.527853548526764
+memory_train_8 loss is 2.504552483558655
+memory_train_9 loss is 2.4845839738845825
+Restart Num 5
+task--3:
+current test acc:0.9294117647058824
+history test acc:0.945619335347432
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432]
+['org:top_members/employees', 'per:stateorprovince_of_birth', 'per:siblings', 'per:city_of_death']
+Use adam optim!
+init_train_0 loss is 5.442535938360752
+init_train_1 loss is 5.26827361033513
+init_train_2 loss is 5.173832489893987
+init_train_3 loss is 5.142725944519043
+init_train_4 loss is 5.126502452752529
+init_train_5 loss is 5.1136782964070635
+init_train_6 loss is 5.1092053560110235
+init_train_7 loss is 5.100462571168557
+init_train_8 loss is 5.092522951272818
+init_train_9 loss is 5.087335818853134
+Use adam optim!
+memory_train_0 loss is 3.1171416997909547
+memory_train_1 loss is 2.91395583152771
+memory_train_2 loss is 2.767047142982483
+memory_train_3 loss is 2.7075016498565674
+memory_train_4 loss is 2.6704310178756714
+memory_train_5 loss is 2.639258050918579
+memory_train_6 loss is 2.6100392580032348
+memory_train_7 loss is 2.5836928129196166
+memory_train_8 loss is 2.573307514190674
+memory_train_9 loss is 2.55788938999176
+Restart Num 5
+task--4:
+current test acc:0.9642857142857143
+history test acc:0.9029345372460497
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497]
+['org:founded', 'per:age', 'org:members', 'org:parents']
+Use adam optim!
+init_train_0 loss is 5.467781211648669
+init_train_1 loss is 5.286967430795942
+init_train_2 loss is 5.210154976163592
+init_train_3 loss is 5.1360050184386115
+init_train_4 loss is 5.082404562405178
+init_train_5 loss is 5.046724958079202
+init_train_6 loss is 5.002931024347033
+init_train_7 loss is 4.967532864638737
+init_train_8 loss is 4.959030611174447
+init_train_9 loss is 4.951666593551636
+Use adam optim!
+memory_train_0 loss is 3.1267976577465353
+memory_train_1 loss is 2.923611384171706
+memory_train_2 loss is 2.7822876343360314
+memory_train_3 loss is 2.7246157756218543
+memory_train_4 loss is 2.689211001762977
+memory_train_5 loss is 2.6809623424823465
+memory_train_6 loss is 2.6389314578129697
+memory_train_7 loss is 2.61641526222229
+memory_train_8 loss is 2.6112121985508847
+memory_train_9 loss is 2.5907869889185977
+Restart Num 5
+task--5:
+current test acc:0.8639455782312925
+history test acc:0.888135593220339
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143, 0.8639455782312925]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497, 0.888135593220339]
+['org:country_of_headquarters', 'org:shareholders', 'per:spouse', 'org:founded_by']
+Use adam optim!
+init_train_0 loss is 5.437730083098779
+init_train_1 loss is 5.260198657329266
+init_train_2 loss is 5.162647623282212
+init_train_3 loss is 5.126327404609094
+init_train_4 loss is 5.080873131752014
+init_train_5 loss is 5.0479963926168585
+init_train_6 loss is 5.01299484876486
+init_train_7 loss is 4.998796536372258
+init_train_8 loss is 4.989956067158626
+init_train_9 loss is 4.980082594431364
+Use adam optim!
+memory_train_0 loss is 3.205731185277303
+memory_train_1 loss is 2.9370030562082925
+memory_train_2 loss is 2.795770692825317
+memory_train_3 loss is 2.744561243057251
+memory_train_4 loss is 2.7202550411224364
+memory_train_5 loss is 2.6947127978006997
+memory_train_6 loss is 2.6635404268900555
+memory_train_7 loss is 2.6481286684672036
+memory_train_8 loss is 2.6455028533935545
+memory_train_9 loss is 2.622495587666829
+Restart Num 5
+task--6:
+current test acc:0.8175182481751825
+history test acc:0.8184319119669876
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143, 0.8639455782312925, 0.8175182481751825]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497, 0.888135593220339, 0.8184319119669876]
+['org:member_of', 'per:religion', 'per:alternate_names', 'per:other_family']
+Use adam optim!
+init_train_0 loss is 5.676537052277596
+init_train_1 loss is 5.448888501813335
+init_train_2 loss is 5.290844317405455
+init_train_3 loss is 5.205639116225704
+init_train_4 loss is 5.126584253003521
+init_train_5 loss is 5.0383601034841226
+init_train_6 loss is 4.996078214337749
+init_train_7 loss is 4.957791528394146
+init_train_8 loss is 4.929309414279077
+init_train_9 loss is 4.930162522100633
+Use adam optim!
+memory_train_0 loss is 3.1824913952085705
+memory_train_1 loss is 2.9461896551979914
+memory_train_2 loss is 2.7823981973859997
+memory_train_3 loss is 2.751364416546292
+memory_train_4 loss is 2.7425871822569103
+memory_train_5 loss is 2.719982147216797
+memory_train_6 loss is 2.679821146859063
+memory_train_7 loss is 2.672996335559421
+memory_train_8 loss is 2.6660649511549206
+memory_train_9 loss is 2.6475991672939725
+Restart Num 5
+task--7:
+current test acc:0.6696428571428571
+history test acc:0.7592371871275327
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143, 0.8639455782312925, 0.8175182481751825, 0.6696428571428571]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497, 0.888135593220339, 0.8184319119669876, 0.7592371871275327]
+['org:dissolved', 'per:origin', 'per:employee_of', 'org:city_of_headquarters']
+Use adam optim!
+init_train_0 loss is 5.377803256434779
+init_train_1 loss is 5.233839757980839
+init_train_2 loss is 5.1599846424595
+init_train_3 loss is 5.1178102647104575
+init_train_4 loss is 5.102149440396216
+init_train_5 loss is 5.084900125380485
+init_train_6 loss is 5.076703317703739
+init_train_7 loss is 5.06573687830279
+init_train_8 loss is 5.061516815616239
+init_train_9 loss is 5.061116510821927
+Use adam optim!
+memory_train_0 loss is 3.397346580028534
+memory_train_1 loss is 3.047014319896698
+memory_train_2 loss is 2.8244237661361695
+memory_train_3 loss is 2.7795868277549745
+memory_train_4 loss is 2.763773190975189
+memory_train_5 loss is 2.747316765785217
+memory_train_6 loss is 2.719499146938324
+memory_train_7 loss is 2.6983518958091737
+memory_train_8 loss is 2.676077973842621
+memory_train_9 loss is 2.675554645061493
+Restart Num 5
+task--8:
+current test acc:0.8203125
+history test acc:0.766287487073423
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143, 0.8639455782312925, 0.8175182481751825, 0.6696428571428571, 0.8203125]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497, 0.888135593220339, 0.8184319119669876, 0.7592371871275327, 0.766287487073423]
+['org:subsidiaries', 'org:website', 'per:countries_of_residence', 'org:political/religious_affiliation']
+Use adam optim!
+init_train_0 loss is 5.369074133726267
+init_train_1 loss is 5.169758475743807
+init_train_2 loss is 5.066879116571867
+init_train_3 loss is 5.033905038466821
+init_train_4 loss is 5.009984300686763
+init_train_5 loss is 4.997340926757226
+init_train_6 loss is 4.992063302260179
+init_train_7 loss is 4.987239498358506
+init_train_8 loss is 4.981439957251916
+init_train_9 loss is 4.97852296095628
+Use adam optim!
+memory_train_0 loss is 3.3152093990989355
+memory_train_1 loss is 2.910368079724519
+memory_train_2 loss is 2.7296187670334526
+memory_train_3 loss is 2.700362547584202
+memory_train_4 loss is 2.6984179330908735
+memory_train_5 loss is 2.6868786189867104
+memory_train_6 loss is 2.671469481095024
+memory_train_7 loss is 2.6636963305266006
+memory_train_8 loss is 2.6476426642874014
+memory_train_9 loss is 2.6215902100438657
+Restart Num 5
+task--9:
+current test acc:0.8409090909090909
+history test acc:0.7652411282984531
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143, 0.8639455782312925, 0.8175182481751825, 0.6696428571428571, 0.8203125, 0.8409090909090909]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497, 0.888135593220339, 0.8184319119669876, 0.7592371871275327, 0.766287487073423, 0.7652411282984531]
+['per:parents', 'per:date_of_death', 'per:children', 'per:title']
+Use adam optim!
+init_train_0 loss is 5.379255190762606
+init_train_1 loss is 5.173814816908403
+init_train_2 loss is 5.04036512374878
+init_train_3 loss is 4.983642612804066
+init_train_4 loss is 4.949339571866122
+init_train_5 loss is 4.936237413232977
+init_train_6 loss is 4.925566465204413
+init_train_7 loss is 4.9123419154774055
+init_train_8 loss is 4.910201358795166
+init_train_9 loss is 4.9084466067227455
+Use adam optim!
+memory_train_0 loss is 3.0462896251678466
+memory_train_1 loss is 2.796948947906494
+memory_train_2 loss is 2.6795041847229
+memory_train_3 loss is 2.64212890625
+memory_train_4 loss is 2.6203744888305662
+memory_train_5 loss is 2.5979215908050537
+memory_train_6 loss is 2.5882225322723387
+memory_train_7 loss is 2.568207960128784
+memory_train_8 loss is 2.557048969268799
+memory_train_9 loss is 2.5571405506134033
+Restart Num 5
+task--10:
+current test acc:0.9
+history test acc:0.778395552025417
+[0.9930555555555556, 0.9509803921568627, 0.9294117647058824, 0.9642857142857143, 0.8639455782312925, 0.8175182481751825, 0.6696428571428571, 0.8203125, 0.8409090909090909, 0.9]
+[0.9930555555555556, 0.9634146341463414, 0.945619335347432, 0.9029345372460497, 0.888135593220339, 0.8184319119669876, 0.7592371871275327, 0.766287487073423, 0.7652411282984531, 0.778395552025417]
